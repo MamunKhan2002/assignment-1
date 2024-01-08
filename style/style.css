@@ -241,6 +241,22 @@ p {
     margin: 0 auto;
 }
 
+.holiday-sale-container .holy-discount-banner{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.holiday-sale-container .holy-discount-banner{
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+
+.holiday-sale-container .holy-background{
+    background-image: url("../images/Rectangle\ 1.png"),url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: top right, bottom;
+}
+
 .holiday-sale-container h4 {
     color: #070211;
     font-family: Inter;
@@ -257,11 +273,18 @@ p {
 
 .holiday-sale-container .holiday-description{
     max-width: 1068px;
-    margin-bottom: 64px;
+    margin-inline: auto;
 }
 
 .holiday-sale-container *{
     text-align: center;
+}
+
+.holiday-sale-container .fifty-discount-img{
+    position: relative;
+    bottom: 86px;
+    right: 90px;
+    
 }
 
 
