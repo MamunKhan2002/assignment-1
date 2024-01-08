@@ -280,11 +280,21 @@ p {
     margin-bottom: 48px;
 }
 
-.contact-container .email{
+.contact-container form{
     display: flex;
-    /* justify-content: center; */
     max-width: 648px;
-    flex-shrink: 1;
+    margin-inline: auto;
+}
+
+.contact-container form input{
+    flex-grow: 1;
+    padding: 0px;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    font-family: Inter;
+    text-align: left;
+    padding-left: 10px;
 }
 
 /*---------Here is the footer design start----------*/
