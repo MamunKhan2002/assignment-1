@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 60%;
+    /* width: 60%; */
     max-width: 1320px;
 }
 
@@ -18,27 +18,27 @@ p {
     line-height: 30px;
 }
 
-main {
-    margin: 0 auto;
-}
 
 .banner {
     margin: 0 auto;
-    /* justify-content: center; */
 }
 
 .banner.banner-content * {
     text-align: center;
+   
 }
 
 .banner-img {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner.png");
     width: 100%;
+    max-width: 1320px;
     border-radius: 16px;
+    margin: 0 auto;
+
 }
 
 .banner-content {
-    padding-block: 177px;
+    padding: 177px;
     margin-top: 50px;
 }
 
@@ -106,13 +106,14 @@ main {
 .wel-party-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1320px;
-    ;
+    margin-inline: auto;
+    /* flex-shrink: 1; */
 }
 
 .background-img {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/vector.png");
     width: 100%;
+    max-width: 1320px;
     padding: 67px 138px 68px 126px;
     border-radius: 16px;
 }
@@ -133,7 +134,7 @@ main {
     color: rgba(255, 255, 255, 0.80);
 }
 
-.wel-party-container .wel-party-content a{
+.wel-party-container .wel-party-content a {
     text-decoration: none;
     font-family: Inter;
     font-size: 20px;
@@ -141,4 +142,54 @@ main {
     text-transform: uppercase;
     color: #FFF;
     margin-left: 32px;
+}
+
+
+/*----------Place Date Time Section Design Start----------*/
+
+.place-time-sec {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0 110px 0;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-block: 120px;
+}
+
+.place-time-sec * {
+    text-align: center;
+}
+
+.place-time-sec .place-time-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.place-time-sec .place-time-title .important {
+    color: #F00;
+}
+
+.place-time-sec .primary-btn-join {
+    margin-top: 48px;
+}
+
+.place-time-sec .primary-btn-join .primary-btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    outline: 0;
+}
+
+.place-time-sec .primary-btn-join .primary-btn a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
