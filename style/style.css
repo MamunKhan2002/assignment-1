@@ -18,6 +18,10 @@ p {
     line-height: 30px;
 }
 
+.important {
+    color: #F00;
+}
+
 .primary-para-red {
     color: #F00;
     font-size: 24px;
@@ -184,10 +188,6 @@ p {
     text-transform: capitalize;
 }
 
-.place-time-sec .place-time-title .important {
-    color: #F00;
-}
-
 .place-time-sec .primary-btn-join {
     margin-top: 48px;
 }
@@ -235,23 +235,54 @@ p {
 .coming-soon-content-two img {
     margin-top: 43px;
 }
-/*----------Image Gallery Section Start----------*/
 
-.gallery-container{ 
+/*-----------Holiday Sale Section design----------*/
+.holiday-sale-container {
     margin: 0 auto;
 }
-.gallery-container .gallery-img-container{
+
+.holiday-sale-container h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-container h3 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-block: 16px 28px;
+}
+
+.holiday-sale-container .holiday-description{
+    max-width: 1068px;
+    margin-bottom: 64px;
+}
+
+.holiday-sale-container *{
+    text-align: center;
+}
+
+
+/*----------Image Gallery Section Start----------*/
+
+.gallery-container {
+    margin: 0 auto;
+}
+
+.gallery-container .gallery-img-container {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
 }
 
-.gallery-container .gallery-img-container img:hover{
+.gallery-container .gallery-img-container img:hover {
     box-shadow: 10px 10px 15px #333;
     border-radius: 15px;
 }
 
-.gallery-description{
+.gallery-description {
     max-width: 896px;
     margin-bottom: 48px;
 }
@@ -298,17 +329,18 @@ p {
     text-transform: capitalize;
     padding-block: 40px 22px;
 }
-.contact-container .contact-container-content{
+
+.contact-container .contact-container-content {
     margin-bottom: 48px;
 }
 
-.contact-container form{
+.contact-container form {
     display: flex;
     max-width: 648px;
     margin-inline: auto;
 }
 
-.contact-container form input{
+.contact-container form input {
     flex-grow: 1;
     padding: 0px;
     outline: 0;
