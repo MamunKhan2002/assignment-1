@@ -25,7 +25,7 @@ p {
 
 .banner.banner-content * {
     text-align: center;
-   
+
 }
 
 .banner-img {
@@ -192,4 +192,159 @@ p {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* ----------Here Are Coming Soon Section design Start---------- */
+.coming-soon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.coming-soon-content-one .coming-soon-text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-content-one .coming-soon-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.coming-soon-content-two .coming-soon-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    /* margin-bottom: 43px; */
+}
+
+.coming-soon-img {
+    padding: 25px;
+    border: 10px solid #F00;
+    border-radius: 50%;
+}
+
+.coming-soon-content-two img {
+    margin-top: 43px;
+}
+
+/*----------Here is the contact Form design-----------*/
+
+.contact-container {
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+    margin-top: 120px;
+}
+
+.contact-container .subscribe-btn {
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    outline: 0;
+}
+
+.contact-container .subscribe-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contact-container * {
+    text-align: center;
+}
+
+.contact-container .contact-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-block: 40px 22px;
+}
+.contact-container .contact-container-content{
+    margin-bottom: 48px;
+}
+
+.contact-container .email{
+    display: flex;
+    /* justify-content: center; */
+    max-width: 648px;
+    flex-shrink: 1;
+}
+
+/*---------Here is the footer design start----------*/
+/* hr{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+} */
+footer {
+    background-color: #070211;
+    padding: 120px 140px;
+    padding-block: 50px 48px;
+    margin-top: 120px;
+
+}
+
+footer .foot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot-container-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-container .address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.foot-container .contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.foot-container .contact ul {
+    list-style-type: none;
+}
+
+.line {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0 48px 0;
+}
+
+footer .social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    cursor: pointer;
+}
+
+footer .foot-container-two p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
