@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    max-width: 1320px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.banner {
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+
+.banner.banner-content * {
+    text-align: center;
+}
+
+.banner-img {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner.png");
+    width: 100%;
+    border-radius: 16px;
+}
+
+.banner-content {
+    padding-block: 177px;
+    margin-top: 50px;
+}
+
+.banner-content p {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-content h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    max-width: 632px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* ----------Here are hot deal section design start---------- */
+/* .hot-deal-container {
+    display: flex;
+    flex-direction: column;
+} */
+.hot-deal-sec {
+    margin-block: 120px;
+    margin-inline: auto;
+}
+
+.hot-deal-sec .hot-deal-content .hot-news {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+
+.hot-deal-sec .hot-deal-content h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.hot-deal-sec .hot-deal-content p {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hot-deal-sec .hot-deal-content * {
+    text-align: center;
+}
+
+.hot-deal-sec .hot-deal-img {
+    text-align: center;
+}
+
+/* ----------Here are welcome party section design start---------- */
+.wel-party-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    ;
+}
+
+.background-img {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/vector.png");
+    width: 100%;
+    padding: 67px 138px 68px 126px;
+    border-radius: 16px;
+}
+
+.wel-party-container .wel-party-content .wel-party-title {
+    color: #FFF;
+    max-width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    /* letter-spacing: 7.04px; */
+    padding-top: 50px;
+}
+
+.wel-party-container .wel-party-content .wel-party-desc {
+    margin-block: 24px 48px;
+    max-width: 695px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.wel-party-container .wel-party-content a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-left: 32px;
+}
