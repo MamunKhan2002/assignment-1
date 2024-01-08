@@ -52,7 +52,7 @@ p {
     width: 100%;
     max-width: 1320px;
     border-radius: 16px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
@@ -82,10 +82,7 @@ p {
 
 
 /* ----------Here are hot deal section design start---------- */
-/* .hot-deal-container {
-    display: flex;
-    flex-direction: column;
-} */
+
 .hot-deal-sec {
     margin-block: 120px;
     margin-inline: auto;
@@ -143,7 +140,6 @@ p {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    /* letter-spacing: 7.04px; */
     padding-top: 50px;
 }
 
@@ -243,7 +239,6 @@ p {
 
 .holiday-sale-container .holy-discount-banner{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .holiday-sale-container .holy-discount-banner{
@@ -375,10 +370,7 @@ p {
 }
 
 /*---------Here is the footer design start----------*/
-/* hr{
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.15);
-} */
+
 footer {
     background-color: #070211;
     padding: 120px 140px;
