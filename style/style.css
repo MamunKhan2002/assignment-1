@@ -18,7 +18,22 @@ p {
     line-height: 30px;
 }
 
+.primary-para-red {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
 
+.primary-head-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+/*-----------Banner Section Design------------*/
 .banner {
     margin: 0 auto;
 }
@@ -202,29 +217,13 @@ p {
     gap: 100px;
     max-width: 1320px;
     margin: 0 auto;
-}
-
-.coming-soon-content-one .coming-soon-text {
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.coming-soon-content-one .coming-soon-title {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
-    margin-bottom: 22px;
+    margin-bottom: 120px;
 }
 
 .coming-soon-content-two .coming-soon-year {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-weight: 700;
-    /* margin-bottom: 43px; */
 }
 
 .coming-soon-img {
@@ -236,8 +235,31 @@ p {
 .coming-soon-content-two img {
     margin-top: 43px;
 }
+/*----------Image Gallery Section Start----------*/
 
-/*----------Here is the contact Form design-----------*/
+.gallery-container{ 
+    margin: 0 auto;
+}
+.gallery-container .gallery-img-container{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.gallery-container .gallery-img-container img:hover{
+    box-shadow: 10px 10px 15px #333;
+    border-radius: 15px;
+}
+
+.gallery-description{
+    max-width: 896px;
+    margin-bottom: 48px;
+}
+
+
+
+
+/*----------Contact Form Section Start--------------*/
 
 .contact-container {
     margin: 0 auto;
@@ -358,3 +380,5 @@ footer .foot-container-two p {
     font-size: 24px;
     font-weight: 500;
 }
+
+/*------------The End-------------*/
