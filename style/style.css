@@ -5,9 +5,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* ------------Universal Container, p, important, primary-para-red, primary-head-title---------- */
 .container {
-    /* width: 60%; */
     max-width: 1320px;
 }
 
@@ -237,17 +236,25 @@ p {
     margin: 0 auto;
 }
 
-.holiday-sale-container .holy-discount-banner{
+.holiday-sale-container .holy-discount-banner {
     display: flex;
     align-items: center;
-}
-.holiday-sale-container .holy-discount-banner{
-    margin-top: 64px;
-    margin-bottom: 120px;
+    position: relative;
 }
 
-.holiday-sale-container .holy-background{
-    background-image: url("../images/Rectangle\ 1.png"),url("../images/Rectangle\ 2.png");
+.holiday-sale-container .fifty-discount-img {
+    position: absolute;
+    bottom: 317px;
+    right: 305px;
+
+}
+
+.holiday-sale-container .holy-discount-banner {
+    margin: 64px 0 120px 0;
+}
+
+.holiday-sale-container .holy-background {
+    background-image: url("../images/Rectangle\ 1.png"), url("../images/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: top right, bottom;
 }
@@ -266,20 +273,13 @@ p {
     margin-block: 16px 28px;
 }
 
-.holiday-sale-container .holiday-description{
+.holiday-sale-container .holiday-description {
     max-width: 1068px;
     margin-inline: auto;
 }
 
-.holiday-sale-container *{
+.holiday-sale-container * {
     text-align: center;
-}
-
-.holiday-sale-container .fifty-discount-img{
-    position: relative;
-    bottom: 86px;
-    right: 90px;
-    
 }
 
 
@@ -304,8 +304,6 @@ p {
     max-width: 896px;
     margin-bottom: 48px;
 }
-
-
 
 
 /*----------Contact Form Section Start--------------*/
@@ -397,7 +395,7 @@ footer .foot-container-two {
     line-height: 40px;
 }
 
-.foot-container .contact a{
+.foot-container .contact a {
     text-decoration: none;
     color: #FFF;
     font-family: Inter;
@@ -424,6 +422,11 @@ footer .foot-container-two small {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+}
+
+.foot-container .contact p a img{
+    position: relative;
+    top:6px;
 }
 
 /*------------The End-------------*/
